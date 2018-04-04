@@ -1,0 +1,35 @@
+body {
+	background-color: #ffeaea;
+}
+
+.product {
+	background-color: #fff;
+	border: 1px solid;
+	float: left;
+	width: 63px;
+	height: 36px;
+	line-height: 36px;
+	padding: 8px;
+	margin: 3px;
+	text-align: center;
+	font-weight: bold;
+	//box-shadow: 1px 1px 1px #000;
+
+}
+
+.product:nth-child(10n+1) {
+	background-color: yellow;
+	clear: both;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	border: 1px solid;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #fff;
+}
