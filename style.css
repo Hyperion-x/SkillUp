@@ -2,7 +2,7 @@ body {
 	background-color: #ffeaea;
 }
 
-.product {
+.product, .product2 {
 	background-color: #fff;
 	border: 1px solid;
 	float: left;
@@ -22,9 +22,17 @@ body {
 	clear: both;
 }
 
+.product2:nth-of-type(10n+1) {
+	background-color: yellow;
+	clear: both;
+}
+
 h1 {
 	text-align: center;
+	clear: both;
 }
+
+
 
 h3 {
 	text-align: center;
