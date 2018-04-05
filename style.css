@@ -35,9 +35,17 @@ h1 {
 
 
 h3 {
+	font-weight: 300;
 	text-align: center;
 	border: 1px solid;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	background-color: #fff;
+}
+h1 > i {
+	text-shadow: 2px 2px 2px #fff;
+}
+
+h3 > i {
+	font-weight: bold;
 }
